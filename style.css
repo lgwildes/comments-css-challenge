@@ -1,0 +1,125 @@
+body {
+    background-color: hsl(228, 33%, 97%);/*very light grey*/
+}
+* {
+    
+}
+.main-container {
+    width: 100%;
+}
+
+.comment-container {
+    width: 75%;
+    margin: auto;
+    margin-top: 2em;
+    background-color:hsl(0, 0%, 100%) ;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.reply-container {
+    width: 75%;
+    margin: auto;
+    margin-top: 2em;
+    background-color:hsl(0, 0%, 100%) ;
+    padding: 1em;
+    border-radius: 10px;
+}
+p {
+    width: 40em;
+    text-align: left;
+    margin-left: 3em;
+    margin-right: 3em;
+    font-family: 'Rubik', sans-serif;
+    color:hsl(211, 10%, 45%); /*grayish blue*/
+    
+
+}
+
+
+
+
+
+.vote-container{
+    display:flex;
+    flex-direction: column;
+    color:hsl(238, 40%, 52%) /*moderate blue*/;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    background-color: #f5f6f9;
+    float: left;
+    position: sticky;
+    top: 0;
+    width: 32px;
+    transform: translate(-7px, 0px);
+    margin-top: 20px;
+    margin-right: 15px;
+    border: 0px solid black;
+    border-radius: 10px;
+    
+
+}
+
+.reply-container {
+
+}
+
+.button {
+    text-align: center;
+    width:100%;
+    margin:auto;
+    background-color: none;
+    border:0px solid black;
+    background-color: transparent;
+    cursor: pointer;
+    color: hsl(239, 57%, 85%);
+    font-weight: bold;
+}
+
+.voteCount {
+    text-align:center;
+}
+
+#upVote {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 7px 0px 7px 0px;
+}
+
+#downVote {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 7px 0px 7px 0px;
+}
+
+.profilePic {
+    width: 30px;
+    height: 30px;
+}
+
+.nameText {
+    color: hsl(212, 24%, 26%); /*dark blue*/
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    position: relative;
+    margin-left: .5em;
+
+    
+}
+
+.comment-info-flex {
+    display: flex;
+    flex-direction: row;
+    width: 40em;
+    align-items: center
+}
+
+.replyBtn {
+    position:relative;
+    background-color: hsl(0, 0%, 100%);
+    border: none;
+    color: hsl(238, 40%, 52%);
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    float: right;
+}
